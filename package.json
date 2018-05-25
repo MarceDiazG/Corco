@@ -1,0 +1,35 @@
+{
+  "name": "ticketweb",
+  "version": "1.0.7",
+  "description": "ticketweb",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "6": "0.0.1",
+    "chai": "^3.0.0",
+    "chai-as-promised": "^5.3.0",
+    "chromedriver": "^2.21.2",
+    "config": "^1.21.0",
+    "expect": "^1.16.0",
+    "mocha": "^2.3.3",
+    "mocha-phantomjs": "^4.1.0",
+    "mocha-yadda": "^0.2.3",
+    "phantomjs": "^2.1.1",
+    "phantomjs-prebuilt": "^2.1.13",
+    "selenium-webdriver": "2.53.3",
+    "webdriver-sync": "^0.16.3",
+    "xml2js": "^0.4.17",
+    "yadda": "^0.12.0"
+  },
+  "devDependencies": {},
+  "author": "Marcelo Diaz",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [
+    "ticketweb"
+  ]
+}

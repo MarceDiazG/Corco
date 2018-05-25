@@ -1,0 +1,17 @@
+{
+    "maxerr"        : 50,
+    "bitwise"       : true,
+    "forin"         : true,
+    "indent"        : 4,
+    "multistr"      : true,
+    "scripturl"     : true,
+    "maxcomplexity" : 10,
+    "curly"         : true,
+    "node"          : true,
+    "sub"           : true,
+    "newcap"        : false,
+    "-W065"         : true,
+    "-W030"         : true,
+    "-W024"         : true,
+    "-W120"         : true
+}
