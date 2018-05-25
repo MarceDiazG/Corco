@@ -1,16 +1,23 @@
-TicketWeb Automation Framework 
+Corcoran Automation Framework
 ==============================
 
 Prerequisites
 --------------
 
-**Java 7:** http://www.oracle.com/technetwork/es/java/javase/downloads/jdk7-downloads-1880260.html
 
-**Python:** https://www.python.org/downloads/release/python-2712/
-
-**Nodejs:** https://nodejs.org/download/release/v5.12.0/
+Java 8:
+http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
 
 
+Python:
+https://www.python.org/downloads/release/python-2715/
+
+
+Node:
+https://nodejs.org/download/release/v6.6.0/
+
+
+Download GitHub code from: https://github.com/MarceDiazG/Corco
 
 Install components
 ------------------
@@ -25,7 +32,6 @@ npm install
 
 To execute Test Cases
 ---------------------
-
 Run:
  * on Mac or Linux:
 ~~~
