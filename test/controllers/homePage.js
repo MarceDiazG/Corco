@@ -20,6 +20,7 @@ var selectPrice = webdriver.By.id("price_from");
 var optionCustom = webdriver.By.xpath("//select[@id='price_from']//*[contains(text(),'Custom')]");
 var inputCustomValue = webdriver.By.className("InputText Home-searchRangeCustom");
 var firstElementAsOptionValue = webdriver.By.className("price-info");
+var elementsOptions = webdriver.By.className("price");
 
 homePage = {
 
@@ -100,9 +101,10 @@ homePage = {
      * @param Price
      */
     checkCorrectPrice: function(driver, Price){
-        console.log("\Going to validate search" + Price);
-        driver.findElement(inputCustomValue).isDisplayed().then(function (inputShowedValue) {
+        console.log("\nGoing to validate search" + Price);
+        driver.findElements(elementsOptions).then(function (listElementsResult) {
             console.log(">> Option showed  OK!....\n");
+            var inputCustomValue = listElementsResult[0];
             inputCustomValue.getAttribute("textContent").then(function (textContent) {
                 textContent = textContent.trim();
 
